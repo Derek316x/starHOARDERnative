@@ -15,6 +15,7 @@
 		6982CE701B644381004A958B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6982CE6F1B644381004A958B /* Images.xcassets */; };
 		6982CE731B644381004A958B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6982CE711B644381004A958B /* LaunchScreen.xib */; };
 		6982CE7F1B644381004A958B /* starHOARDERnativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6982CE7E1B644381004A958B /* starHOARDERnativeTests.swift */; };
+		8D2B1E201B6444FB003759E7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2B1E1F1B6444FB003759E7 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		6982CE781B644381004A958B /* starHOARDERnativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starHOARDERnativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6982CE7D1B644381004A958B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6982CE7E1B644381004A958B /* starHOARDERnativeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starHOARDERnativeTests.swift; sourceTree = "<group>"; };
+		8D2B1E1F1B6444FB003759E7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2B1E201B6444FB003759E7 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		6982CE561B644381004A958B = {
 			isa = PBXGroup;
 			children = (
+				8D2B1E1F1B6444FB003759E7 /* CoreMotion.framework */,
 				6982CE611B644381004A958B /* starHOARDERnative */,
 				6982CE7B1B644381004A958B /* starHOARDERnativeTests */,
 				6982CE601B644381004A958B /* Products */,
@@ -162,6 +166,7 @@
 		6982CE571B644381004A958B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = dereknetto;
 				TargetAttributes = {
@@ -417,6 +422,7 @@
 				6982CE841B644381004A958B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6982CE851B644381004A958B /* Build configuration list for PBXNativeTarget "starHOARDERnativeTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +431,7 @@
 				6982CE871B644381004A958B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
